@@ -13,8 +13,12 @@ import { RouterLink } from 'vue-router'
       <input type="password" name="password" id="password" class="border border-black" />
     </div>
     <div class="grid justify-center">
-      <button type="submit" class="border border-black w-24 p-2 m-4 rounded-md">Login</button>
+      <RouterLink to="/mainmenu">
+        <button type="submit" class="border border-black w-24 p-2 m-4 rounded-md">Login</button>
+      </RouterLink>
     </div>
   </form>
-  <div class="text-center m-4">Belum Punya Akun? <RouterLink to="/register">Daftar</RouterLink></div>
+  <div class="text-center m-4">
+    Belum Punya Akun? <RouterLink to="/register">Daftar</RouterLink>
+  </div>
 </template>

@@ -31,6 +31,16 @@ const router = createRouter({
       path: '/identity',
       name: 'identity',
       component: () => import('../views/RegisterIdentityView.vue')
+    },
+    {
+      path: '/return',
+      name: 'return',
+      component: () => import('../views/ReturnView.vue')
+    },
+    {
+      path: '/mainmenu',
+      name: 'mainmenu',
+      component: () => import('../views/MainMenuView.vue')
     }
   ]
 })

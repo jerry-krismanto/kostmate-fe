@@ -15,7 +15,9 @@
       <input type="password" name="confirm" id="confirm" class="border border-black" />
     </div>
     <div class="grid justify-center">
-      <button type="submit" class="border border-black w-24 p-2 rounded-md">Sign Up</button>
+      <RouterLink to="/identity">
+        <button type="submit" class="border border-black w-24 p-2 rounded-md">Sign Up</button>
+      </RouterLink>
     </div>
   </form>
 </template>

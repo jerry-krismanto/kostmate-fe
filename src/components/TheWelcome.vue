@@ -9,13 +9,13 @@
     <div class="grid grid-cols-1 mt-8 justify-items-center">
       <RouterLink
         to="/login"
-        class="text-center w-28 focus:outline-none text-white bg-purple-400 hover:bg-purple-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-purple-900"
+        class="text-center w-28 focus:outline-none text-white bg-purple-400 hover:bg-purple-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:focus:ring-purple-900"
       >
         Login
       </RouterLink>
       <RouterLink
         to="/register"
-        class="text-center  w-28 focus:outline-none text-white bg-purple-400 hover:bg-purple-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-purple-900"
+        class="text-center w-28 focus:outline-none text-white bg-purple-400 hover:bg-purple-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:focus:ring-purple-900"
       >
         Sign Up
       </RouterLink>
